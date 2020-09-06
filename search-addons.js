@@ -26,5 +26,10 @@ module.exports = [
     name: 'Google',
     url: 'http://www.google.com/search?q=%%query%%',
     space: '+'
+  },
+  {
+    name: 'JustWatch',
+    url: 'https://www.themoviedb.org%%tmdbUrl%%/watch',
+    useIds: ['tmdbUrl']
   }
 ]
