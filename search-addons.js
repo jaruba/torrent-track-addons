@@ -26,7 +26,7 @@ module.exports = [
   },
   {
     name: 'Open Directories',
-    url: 'https://www.google.com/search?q=intext%3A%5C%22%%query%%%5C%22+intitle%3A%5C%22index.of%5C%22+%2B%28wmv%7Cmpg%7Cavi%7Cmp4%7Cmkv%7Cmov%29+-inurl%3A%28jsp%7Cpl%7Cphp%7Chtml%7Caspx%7Chtm%7Ccf%7Cshtml%29',
+    url: 'https://www.google.com/search?q=intext%3A%22%%query%%%22+intitle%3A%22index.of%22+%2B%28wmv%7Cmpg%7Cavi%7Cmp4%7Cmkv%7Cmov%29+-inurl%3A%28jsp%7Cpl%7Cphp%7Chtml%7Caspx%7Chtm%7Ccf%7Cshtml%29',
     alphanumeric: true,
     space: '+'       
   },
