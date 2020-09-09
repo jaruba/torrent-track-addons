@@ -36,6 +36,26 @@ module.exports = [
     useIds: ['tmdbUrl']
   },
   {
+    name: 'IMDB',
+    url: 'https://www.imdb.com/title/%%imdb%%/',
+    useIds: ['imdb']
+  },
+  {
+    name: 'Metacritic',
+    url: 'https://www.metacritic.com%%metacritic%%',
+    useIds: ['metacritic']
+  },
+  {
+    name: 'Rotten Tomatoes',
+    url: 'https://www.rottentomatoes.com%%rtUrl%%',
+    useIds: ['rtUrl']
+  },
+  {
+    name: 'TMDB',
+    url: 'https://www.themoviedb.org%%tmdbUrl%%',
+    useIds: ['tmdbUrl']
+  },
+  {
     name: 'Wikipedia',
     url: 'https://en.wikipedia.org/w/index.php?search=%%query%%&title=Special%3ASearch&go=Go&ns0=1',
     space: '+'
