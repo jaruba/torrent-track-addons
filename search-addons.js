@@ -22,7 +22,12 @@ module.exports = [
     name: 'ThePirateBay',
     url: 'https://thepiratebay.org/search.php?q=%%imdb%%&video=on&search=Pirate+Search&page=0&orderby=',
     useIds: ['imdb'],
-    space: '+'       
+  },
+  {
+    name: 'FilePursuit',
+    url: 'https://filepursuit.com/pursuit?q=%%query%%&type=video',
+    alphanumeric: true,
+    space: '+'
   },
   {
     name: 'Open Directories',
