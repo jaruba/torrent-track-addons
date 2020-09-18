@@ -1,6 +1,6 @@
 # Torrent Track Addons
 
-Addons for the [Torrent Track](https://torrent-track.surge.sh/) website.
+Addons for the [Torrent Track](https://torrent-track.app/) website.
 
 ## How to contribute
 
