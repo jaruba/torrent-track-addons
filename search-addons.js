@@ -9,16 +9,6 @@ module.exports = [
     }
   },
   {
-    name: 'RARBG',
-    url: 'https://rarbgp2p.org/torrents.php?category=%%type%%&search=%%imdb%%&order=seeders&by=DESC',
-    space: '+',
-    useIds: ['imdb'],
-    types: {
-      movie: '14;48;17;44;45;47;50;51;52;42;46;54',
-      series: '18;41;49',
-    }
-  },
-  {
     name: 'ThePirateBay',
     url: 'https://thepiratebay.org/search.php?q=%%imdb%%&video=on&search=Pirate+Search&page=0&orderby=',
     useIds: ['imdb'],
