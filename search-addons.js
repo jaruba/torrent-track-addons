@@ -23,7 +23,7 @@ module.exports = [
     name: 'Open Directories',
     url: 'https://www.google.com/search?q=intext%3A%22%%query%%%22+intitle%3A%22index.of%22+%2B%28wmv%7Cmpg%7Cavi%7Cmp4%7Cmkv%7Cmov%29+-inurl%3A%28jsp%7Cpl%7Cphp%7Chtml%7Caspx%7Chtm%7Ccf%7Cshtml%29',
     alphanumeric: true,
-    space: '+'       
+    space: '+'
   },
   {
     name: 'JustWatch',
@@ -50,6 +50,29 @@ module.exports = [
     url: 'https://www.themoviedb.org%%tmdbUrl%%',
     useIds: ['tmdbUrl']
   },
+  {
+    name: 'Stremio',
+    url: 'https://web.stremio.com/#/detail/%%type%%/%%imdb%%',
+    useIds: ['imdb'],
+    types: {
+      movie: 'movie',
+      series: 'series',
+    }
+  },
+  {
+    name: 'DMM',
+    url: 'https://debridmediamanager.com/%%type%%/%%imdb%%',
+    useIds: ['imdb'],
+    types: {
+      movie: 'movie',
+      series: 'show',
+    }
+  },
+  {
+    name: 'YouTube',
+    url: 'https://www.youtube.com/results?search_query=%%query%%&+trailer',
+    space: '+'
+  },  
   {
     name: 'Wikipedia',
     url: 'https://en.wikipedia.org/w/index.php?search=%%query%%&title=Special%3ASearch&go=Go&ns0=1',
