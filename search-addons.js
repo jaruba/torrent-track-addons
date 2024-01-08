@@ -70,7 +70,7 @@ module.exports = [
   },
   {
     name: 'YouTube',
-    url: 'https://www.youtube.com/results?search_query=%%query%%&+trailer',
+    url: 'https://www.youtube.com/results?search_query=%%query%%+trailer',
     space: '+'
   },  
   {
